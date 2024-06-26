@@ -25,7 +25,7 @@ class ProductController extends Controller
                 <img src='$prod->imgUrl' style='width: 100px; height: auto;' class='mr-4'>
                 <div class='flex-1'>
                     <h3 class='text-2xl'>$prod->name</h3>
-                    <div class='italic text-gray-500'>$prod->description</div>
+                    <div class='italic text-gray-700'>$prod->description</div>
                 </div>
             </div>
             <div class='text-4xl text-green-900 self-end mt-4'>$prod->price</div>

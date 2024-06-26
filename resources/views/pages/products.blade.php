@@ -2,15 +2,15 @@
 
 @section('content')
 <div class="flex justify-between items-center mb-3">
-    <h1 class="text-4xl">Products</h1>
+    <h1 class="text-4xl">List of Products</h1>
     <form 
         hx-get="/api/products"
         hx-trigger="submit"
         hx-target="#products_list">
         <input type="text" 
                name="filter" 
-               class="p-2 border border-gray-300 rounded-full"
-               placeholder="Search for an item...">
+               class="p-2 border border-gray-500 rounded"
+               placeholder="Search Here..">
     </form>
     <button class="p-2 bg-blue-500 text-white rounded" 
             onclick="showAddProductModal()">Add Product</button>

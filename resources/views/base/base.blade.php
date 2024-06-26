@@ -10,9 +10,9 @@
 </head>
 <body class="flex h-screen bg-gray-100 font-sans">
     <!-- Sidebar -->
-    <div class="w-64 bg-black text-white flex flex-col">
+    <div class="w-64 bg-black text-white flex flex-col overflow-y-auto">
         <div id="brand" class="text-3xl font-bold p-4 text-center">
-            ShoppingMall
+            Diy
         </div>
         <nav id="main-nav" class="flex flex-col">
             <a href="/" class="p-4 hover:bg-gray-800">Home</a>
@@ -24,7 +24,7 @@
 
     <!-- Main Content Area -->
     <div class="flex-1 flex flex-col">
-        <section class="flex-1 p-4">
+        <section class="flex-1 p-4 overflow-y-auto">
             <article id="content" class="bg-white rounded-lg shadow-lg p-6">
                 @yield('content')
             </article>
@@ -34,6 +34,7 @@
         </footer>
     </div>
 </body>
+
 </html>
 
 
