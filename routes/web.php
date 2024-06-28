@@ -29,3 +29,4 @@ Route::get('/products', function () {
 Route::get('/contact', function () {
     return view('pages.contact');
 });
+
